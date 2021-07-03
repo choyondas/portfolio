@@ -8,10 +8,19 @@ span {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 65px;
 }
 
-section {
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.block_container {
     display: flex;
     padding: 20px;
 }
@@ -46,4 +55,13 @@ section {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.box {
+    width: 50%;
+    padding: 20px;
+    height: 550px;
+    box-shadow: 5px 5px 40px gray;
+    margin: 30px;
+    border-left: 9px solid red;
 }
