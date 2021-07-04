@@ -63,5 +63,29 @@ h3 {
     height: 550px;
     box-shadow: 5px 5px 40px gray;
     margin: 30px;
-    border-left: 9px solid red;
+}
+
+.experience-area {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left
+}
+
+#web-dev {
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(253, 125, 51), rgb(240, 180, 70));
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+#web-dev2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
 }
