@@ -8,16 +8,16 @@ span {
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 30px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .block_container {
@@ -38,10 +38,10 @@ h3 {
 .button {
     text-decoration: none;
     background-image: linear-gradient(rgb(214, 91, 19), orange, rgb(214, 91, 19));
-    padding: 8px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
     color: white;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .top-banner {
@@ -60,7 +60,6 @@ h3 {
 .box {
     width: 50%;
     padding: 20px;
-    height: 550px;
     box-shadow: 5px 5px 40px gray;
     margin: 30px;
 }
